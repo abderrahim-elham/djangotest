@@ -1,0 +1,8 @@
+asgiref==3.5.0
+Django==4.0.3
+django-grappelli==3.0.3
+django-suit @ https://github.com/darklow/django-suit/tarball/v2
+mysqlclient==2.1.0
+Pillow==9.1.0
+sqlparse==0.4.2
+tzdata==2021.5

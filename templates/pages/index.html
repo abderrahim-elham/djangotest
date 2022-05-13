@@ -1,0 +1,25 @@
+
+{% comment %} {% load static %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+{% include 'pages/about.html' %} {% endcomment %}
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <div class="div1">
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            Username:<br><input type="text" name="username" value=""><br>
+            Password:<br><input type="password" name="password" value=""><br>
+            Identifinet:<br><input type="text" name="indenti" value=""><br>
+            Image:<br><input type="file" name="image" ><br>
+            <button type="submit" class="envoye" name="send" value="send">Send</button>
+            <button type="reset" class="envoye">Anulle</button>
+        </form>
+      
+
+    </div>
+    <div class="div2"></div>

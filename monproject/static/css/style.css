@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+.div1{
+    background-color: aqua;
+    width: 50%;
+    margin-left: 23%;
+    padding: 2%;
+    border-radius: 20px;
+    border: 1px red solid;
+}
+.div1 input{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+.div2{
+    margin-top: 20px;
+    background-color: rgb(255, 89, 247);
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/test1.jpg);
+    background-size: 100%;
+}
+.envoye{
+    width: 30%;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: cadetblue;
+}
+.envoye:hover{
+    background-color: white;
+    color: black;
+}
+.getimage{
+   width: 200px;
+}
